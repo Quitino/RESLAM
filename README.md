@@ -57,6 +57,7 @@ in the folder, where your dataset is.
 In the "RESLAM" directory:
 ```bash
 build/RESLAM config_files/reslam_settings.yaml config_files/dataset_tum1.yaml
+数据集的路径添加是在这个文件里面的config_files/dataset_tum1.yaml，看看就知道了。
 ```
 For evaluation of the absolute trajectory error (ATE) and relative pose error (RPE) download the corresponding scripts from [TUM RGBD Tools](https://svncvpr.in.tum.de/cvpr-ros-pkg/trunk/rgbd_benchmark/rgbd_benchmark_tools/src/rgbd_benchmark_tools/).
 ## Supported Sensors
